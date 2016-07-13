@@ -4,7 +4,7 @@ var AwesomeModule = require('awesome-module');
 var Dependency = AwesomeModule.AwesomeModuleDependency;
 var path = require('path');
 
-var myAwesomeModule = new AwesomeModule('esn.helloworld', {
+var myAwesomeModule = new AwesomeModule('esn.linagora.openbardo', {
   dependencies: [
     new Dependency(Dependency.TYPE_NAME, 'linagora.esn.core.logger', 'logger'),
     new Dependency(Dependency.TYPE_NAME, 'linagora.esn.core.webserver.wrapper', 'webserver-wrapper')
